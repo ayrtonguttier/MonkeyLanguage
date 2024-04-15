@@ -11,22 +11,22 @@ const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
 
-	//identifiers and literals
+	// identifiers and literals
 
 	IDENT = "IDENT"
 	INT   = "INT"
 
-	//operators
+	// operators
 
-	ASSIGN    = "="
-	PLUS      = "+"
+	ASSIGN = "="
+	PLUS   = "+"
 
-    MINUS = "-"
-    BANG = "!"
-    ASTERISK ="*"
-    SLASH = "/"
-    LT = "<"
-    GT = ">"
+	MINUS    = "-"
+	BANG     = "!"
+	ASTERISK = "*"
+	SLASH    = "/"
+	LT       = "<"
+	GT       = ">"
 
 	COMMA     = ","
 	SEMICOLON = ";"
@@ -35,10 +35,10 @@ const (
 	LBRACE    = "{"
 	RBRACE    = "}"
 
-    EQ = "=="
-    NOT_EQ = "!="
+	EQ     = "=="
+	NOT_EQ = "!="
 
-	//keywords
+	// keywords
 
 	FUNCTION = "FUNCTION"
 	LET      = "LET"

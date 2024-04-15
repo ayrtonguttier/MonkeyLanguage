@@ -9,7 +9,7 @@ import (
 	"monkeylanguage.ayrtonguttier.com.br/token"
 )
 
-const PROMPT = ">>"
+const PROMPT = ">> "
 
 func Start(in io.Reader, out io.Writer) {
 	scanner := bufio.NewScanner(in)
